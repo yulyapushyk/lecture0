@@ -29,7 +29,7 @@ div {
 .important {
   color: #0085ba;
   font-weight: 600;
-  line-height: "Roboto", Sans-serif, "Times New Roman", Times, serif; }
+  line-height: 1.5em; }
 
 .first {
   margin: 30px;
@@ -55,8 +55,7 @@ table, th, td {
 th {
   padding: 15px;
   text-align: center;
-  background-color: #eee;
-  color: "Roboto", Sans-serif, "Times New Roman", Times, serif; }
+  background-color: #eee; }
 
 td {
   text-align: center; }
