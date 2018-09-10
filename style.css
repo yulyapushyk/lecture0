@@ -1,0 +1,72 @@
+.navbar-nav ul {
+  margin-top: 5px; }
+
+a, a:visited, a:hover, a:focus, a:active {
+  text-decoration: none; }
+
+a:visited {
+  color: #0085ba; }
+
+a:hover, a:focus, a:active {
+  color: #e73c50; }
+
+h1 {
+  color: #0085ba;
+  line-height: 1.5em;
+  font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
+  text-align: left;
+  font-size: 45px; }
+
+body {
+  text-align: justify; }
+
+div {
+  font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #7a7a7a;
+  line-height: 1.5em; }
+
+.important {
+  color: #0085ba;
+  font-weight: 600;
+  line-height: "Roboto", Sans-serif, "Times New Roman", Times, serif; }
+
+.first {
+  margin: 30px;
+  margin-top: 70px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.btn-outline-info {
+  color: white;
+  background-color: transparent;
+  background-image: none;
+  border-color: white; }
+
+table {
+  width: 100%; }
+
+table, th, td {
+  border: 1px solid black;
+  font-size: 15px;
+  border-collapse: collapse; }
+
+th {
+  padding: 15px;
+  text-align: center;
+  background-color: #eee;
+  color: "Roboto", Sans-serif, "Times New Roman", Times, serif; }
+
+td {
+  text-align: center; }
+
+#01 {
+  background-color: black; }
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 20px;
+    font-weight: 600; } }
+
+/*# sourceMappingURL=style.css.map */
