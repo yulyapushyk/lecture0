@@ -1,6 +1,6 @@
 $mainColor: #0085ba;
 $line_heigh: 1.5em;
-$my_font_famile: "Roboto", Sans-serif, "Times New Roman", Times, serif;
+$my_font_famile:"Roboto", Sans-serif, "Times New Roman", Times, serif;
 .navbar-nav {
 	ul{
 		margin-top: 5px;
@@ -9,7 +9,7 @@ $my_font_famile: "Roboto", Sans-serif, "Times New Roman", Times, serif;
 a {
 	text-decoration: none;
 }
-a:visited {
+a:visited{
 	@extend a;
 	color:  $mainColor;
 }
@@ -25,53 +25,62 @@ h1 {
 	font-size: 45px;
 }
 body {
-	text-align: justify;	
+	text-align: justify;
 }
-div {
+.container {
 	font-family: $my_font_famile;
 	font-size: 20px;
 	color: #7a7a7a;
 	line-height: $line_heigh;
+	margin: 30px;
+	margin-top:70px;
 }
-.important { 
+.important{
 	color:  $mainColor;
 	font-weight: 600;
 	line-height:$line_heigh;
 }
-.first {
+.container{
 	margin: 30px;
-        margin-top:70px;
-}  
+	margin-top:70px;
+}
 .navbar-dark .navbar-nav .nav-link {
 	color: rgba(255,255,255,1);
 }
 .btn-outline-info {
-        color:rgba(255,255,255,1);
-        background-color: transparent;
-        background-image: none;
-        border-color: rgba(255,255,255,1);
+	color:rgba(255,255,255,1);
+	background-color: transparent;
+	background-image: none;
+	border-color: rgba(255,255,255,1);
+}
+img {
+    width: 100%;
 }
 table {
 	width:100%;
 }
 table, th, td {
-        border: 1px solid black;
+	border: 1px solid black;
 	font-size: 15px;
-        border-collapse: collapse;
+	border-collapse: collapse;
+}
+.table {
+    overflow-x: auto;
 }
 th {
-        padding: 15px;
-        text-align: center;
+	padding: 15px;
+	text-align: center;
 	background-color:#eee;
 }
 td {
 	text-align: center;
 }
 #01 {
-	background-color: black;
-}
+	background-color:#eee;
+	font-weight:600;
+	color:#0085ba; }
 @media screen and (max-width: 550px) {
-        h1{
+	h1{
 		font-size: 20px;
 		font-weight: 600;
 	}
