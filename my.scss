@@ -85,4 +85,6 @@ td {
 		font-weight: 600;
 	}
 }
-    
+p::first-letter {
+    color:$mainColor;
+}

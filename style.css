@@ -76,5 +76,7 @@ td {
   h1 {
     font-size: 20px;
     font-weight: 600; } }
-
+p::first-letter {
+    color:#0085ba;
+}
 /*# sourceMappingURL=style.css.map */
