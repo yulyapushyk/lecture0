@@ -24,6 +24,9 @@ h1 {
 	text-align: left;
 	font-size: 45px;
 }
+p::first-letter {
+    color:$mainColor;
+}
 body {
 	text-align: justify;
 }
