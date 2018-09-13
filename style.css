@@ -36,10 +36,6 @@ body {
   font-weight: 600;
   line-height: 1.5em; }
 
-.container {
-  margin: 30px;
-  margin-top: 70px; }
-
 .navbar-dark .navbar-nav .nav-link {
   color: white; }
 
