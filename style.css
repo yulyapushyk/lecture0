@@ -28,7 +28,6 @@ body {
   font-size: 20px;
   color: #7a7a7a;
   line-height: 1.5em;
-  margin: 30px;
   margin-top: 70px; }
 
 .important {
@@ -45,8 +44,11 @@ body {
   background-image: none;
   border-color: white; }
 
-img {
-  width: 100%; }
+#my_photo {
+  float: left;
+  margin-right: 70px;
+  width: 25%;
+}
 
 table {
   width: 100%; }
@@ -56,8 +58,8 @@ table, th, td {
   font-size: 15px;
   border-collapse: collapse; }
 
-.table {
-  overflow-x: auto; }
+img {
+  width: 100%; }
 
 th {
   padding: 15px;
@@ -72,9 +74,36 @@ td {
   font-weight: 600;
   color: #0085ba; }
 
-@media screen and (max-width: 550px) {
+ul {
+  list-style-type: circle; }
+
+#my_photo {
+  float: left;
+  margin-right: 50px;
+  width: 25%; }
+
+@media screen and (max-width: 544px) {
   h1 {
-    font-size: 20px;
-    font-weight: 600; } }
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2em; }
+
+  .container {
+    font-size: 17px; }
+
+  #my_photo {
+    width: 100%; } }
+@media (max-width: 768px) and (min-width: 544px) {
+  h1 {
+    font-size: 25px;
+    font-weight: 600; }
+
+  #my_photo {
+    width: 50%; }
+
+  .container {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
+
