@@ -16,20 +16,20 @@ h1 {
   font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
   text-align: left;
   font-size: 45px; }
-img {
-    width: 100%;
-}
 
 p::first-letter {
-    color:#0085ba;
-}
-
-img {
-    width: 100%;
-}
+  color: #0085ba; }
 
 body {
   text-align: justify; }
+
+.container {
+  font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #7a7a7a;
+  line-height: 1.5em;
+  margin: 30px;
+  margin-top: 70px; }
 
 .important {
   color: #0085ba;
@@ -37,13 +37,8 @@ body {
   line-height: 1.5em; }
 
 .container {
-    margin: 30px;
-    margin-top: 70px;
-    font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
-    font-size: 20px;
-    color: #7a7a7a;
-    line-height: 1.5em;
-}
+  margin: 30px;
+  margin-top: 70px; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: white; }
@@ -54,37 +49,36 @@ body {
   background-image: none;
   border-color: white; }
 
-table {
+img {
   width: 100%; }
 
-#responsive_table{
-    owerflow-x: auto;
-}
+table {
+  width: 100%; }
 
 table, th, td {
   border: 1px solid black;
   font-size: 15px;
   border-collapse: collapse; }
 
+.table {
+  overflow-x: auto; }
+
 th {
   padding: 15px;
   text-align: center;
-  background-color: #eee;
-   }
+  background-color: #eee; }
 
 td {
   text-align: center; }
 
-#tr01 {
-    background-color:#eee;
-    font-weight:600;
-    color:#0085ba; }
+#01 {
+  background-color: #eee;
+  font-weight: 600;
+  color: #0085ba; }
 
 @media screen and (max-width: 550px) {
   h1 {
     font-size: 20px;
     font-weight: 600; } }
-p::first-letter {
-    color:#0085ba;
-}
+
 /*# sourceMappingURL=style.css.map */
