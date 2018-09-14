@@ -10,25 +10,11 @@ a:visited {
 a:hover, a:focus, a:active {
   color: #e73c50; }
 
-h1 {
-  color: #0085ba;
-  line-height: 1.5em;
-  font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
-  text-align: left;
-  font-size: 45px; }
-
 p::first-letter {
   color: #0085ba; }
 
 body {
   text-align: justify; }
-
-.container {
-  font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: #7a7a7a;
-  line-height: 1.5em;
-  margin-top: 70px; }
 
 .important {
   color: #0085ba;
@@ -43,12 +29,6 @@ body {
   background-color: transparent;
   background-image: none;
   border-color: white; }
-
-#my_photo {
-  float: left;
-  margin-right: 70px;
-  width: 25%;
-}
 
 table {
   width: 100%; }
@@ -77,33 +57,46 @@ td {
 ul {
   list-style-type: circle; }
 
+h1 {
+  color: #0085ba;
+  line-height: 1.5em;
+  font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
+  text-align: left;
+  font-size: 45px; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 1.2em; } }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 25px;
+      font-weight: 600; } }
+
+.container {
+  font-family: "Roboto", Sans-serif, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #7a7a7a;
+  line-height: 1.5em;
+  margin-top: 70px; }
+  @media (max-width: 768px) {
+    .container {
+      font-size: 17px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      font-size: 20px; } }
+
 #my_photo {
   float: left;
   margin-right: 50px;
+  margin-bottom: 15px;
   width: 25%; }
-
-@media screen and (max-width: 544px) {
-  h1 {
-    font-size: 30px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 1.2em; }
-
-  .container {
-    font-size: 17px; }
-
-  #my_photo {
-    width: 100%; } }
-@media (max-width: 768px) and (min-width: 544px) {
-  h1 {
-    font-size: 25px;
-    font-weight: 600; }
-
-  #my_photo {
-    width: 50%; }
-
-  .container {
-    font-size: 20px; } }
+  @media (max-width: 768px) {
+    #my_photo {
+      width: 100%; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #my_photo {
+      width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
-

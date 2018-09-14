@@ -17,25 +17,11 @@ a:hover, a:focus, a:active {
 	@extend a;
 	color: #e73c50;
 }
-h1 {
-	color: $mainColor;
-	line-height: $line_heigh;
-	font-family: $my_font_famile;
-	text-align: left;
-	font-size: 45px;
-}
 p::first-letter {
     color:$mainColor;
 }
 body {
 	text-align: justify;
-}
-.container {
-	font-family: $my_font_famile;
-	font-size: 20px;
-	color: #7a7a7a;
-	line-height: $line_heigh;
-	margin-top:70px;
 }
 .important{
 	color:  $mainColor;
@@ -50,11 +36,6 @@ body {
 	background-color: transparent;
 	background-image: none;
 	border-color: rgba(255,255,255,1);
-}
-#my_photo {
-    float: left;
-	margin-right: 50px;
-	width:25%;
 }
 table {
 	width:100%;
@@ -83,35 +64,45 @@ td {
 ul {
     list-style-type:circle;
 }
-#my_photo {
-    float: left;
-	margin-right:25px;
-	width:25%;
-}
-@media screen and (max-width: 544px) {
-	h1 {
+h1{
+    color: $mainColor;
+	line-height: $line_heigh;
+	font-family: $my_font_famile;
+	text-align: left;
+	font-size: 45px;
+	@media (min-width: 768px) and (max-width: 1023px) {
 		font-size: 30px;
 		font-weight: 600;
 		text-align: center;
 		line-height: 1.2em;
 	}
-	.container {
-		font-size: 17px;
-	}
-	#my_photo {
-		width: 100%;
-	}
-}
-@media (max-width: 768px) and (min-width: 544px){
-    h1 {
+	@media (max-width: 768px) {
 		font-size: 25px;
 		font-weight: 600;
 	}
-	#my_photo {
-		width: 50%;
+}
+.container {
+	font-family: $my_font_famile;
+	font-size: 20px;
+	color: #7a7a7a;
+	line-height: $line_heigh;
+	margin-top:70px;
+	@media (max-width: 768px) {
+		font-size: 17px;
 	}
-	.container {
+	@media (min-width: 768px) and (max-width: 1023px) {
 		font-size: 20px;
 	}
 }
-
+#my_photo {
+    float: left;
+	margin-right: 50px;
+	margin-bottom: 15px;
+	width:25%;
+	@media (max-width:768px) {
+		width: 100%;
+	}
+	@media (min-width: 768px) and (max-width: 1023px) {
+		width: 50%;
+	}
+}
